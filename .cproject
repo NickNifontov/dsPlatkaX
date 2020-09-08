@@ -92,6 +92,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dsPlatkaX/Startup}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dsPlatkaX/Drivers/CMSIS/Inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dsPlatkaX/Drivers/LL/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dsPlatkaX/Periphery/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dsPlatkaX/Application/Inc}&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.840409231" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
 							</tool>
@@ -116,10 +118,11 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Application/Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Drivers/CMSIS/Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Drivers/LL/Src"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Drivers/MCU_SYS/Src"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Periphery/Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Startup"/>
 					</sourceEntries>
 				</configuration>
@@ -215,6 +218,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dsPlatkaX/Startup}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dsPlatkaX/Drivers/CMSIS/Inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dsPlatkaX/Drivers/LL/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dsPlatkaX/Periphery/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dsPlatkaX/Application/Inc}&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1174910642" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
 							</tool>
@@ -239,10 +244,11 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Application/Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Drivers/CMSIS/Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Drivers/LL/Src"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Drivers/MCU_SYS/Src"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Periphery/Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Startup"/>
 					</sourceEntries>
 				</configuration>

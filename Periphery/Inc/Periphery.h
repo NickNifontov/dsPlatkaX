@@ -13,6 +13,7 @@
  ********************************************************************************/
 #include "Clock.h"
 #include "Nvic.h"
+#include "Task.h"
 
 /********************************************************************************
  * Class Periphery
@@ -22,6 +23,7 @@ class Periphery {
     public:
         static void Init() {
             Clock::Init();
+            Task::Init(true); // Systick TRUE/ FALSE
             Nvic::Init();
         }
 };

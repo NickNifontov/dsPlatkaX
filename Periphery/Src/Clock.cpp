@@ -16,7 +16,7 @@
  * Class Clock
  ********************************************************************************/
 
-void Clock::Init (void) {
+void Clock::Init () {
 	/* Reset of all peripherals, Initializes the Flash interface and the Systick. */
 	LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_SYSCFG);
 	LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_PWR);
@@ -69,6 +69,7 @@ void Clock::SystemClock_Config(void) {
 
   }
   LL_Init1msTick(72000000);
+
   LL_SetSystemCoreClock(72000000);
   LL_RCC_SetUSARTClockSource(LL_RCC_USART1_CLKSOURCE_SYSCLK);
   LL_RCC_SetTIMClockSource(LL_RCC_TIM1_CLKSOURCE_PLL);

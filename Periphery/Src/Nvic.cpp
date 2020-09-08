@@ -45,4 +45,8 @@ void Nvic::Init (void) {
 	  /* USART1_IRQn interrupt configuration */
 	  NVIC_SetPriority(USART1_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),5, 0));
 	  NVIC_EnableIRQ(USART1_IRQn);
+
+	  /* SysTick */
+	  NVIC_SetPriority(SysTick_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),6, 0));
+	  NVIC_EnableIRQ(SysTick_IRQn);
 };

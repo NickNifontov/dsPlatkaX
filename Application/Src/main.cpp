@@ -13,6 +13,5 @@ int main (void) {
     Periphery::Init();
 
     while(1) {
-    	LL_mDelay(100);
     }
 }

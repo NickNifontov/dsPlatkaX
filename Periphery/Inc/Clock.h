@@ -23,7 +23,7 @@
 
 class Clock {
     public:
-        static void Init (void);
+        static void Init ();
 
     private:
 		static void SystemClock_Config(void);
